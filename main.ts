@@ -4,5 +4,5 @@ basic.forever(function () {
     temperature = input.temperature()
     radio.sendValue(control.deviceName(), temperature)
     basic.showString("" + (temperature))
-    basic.pause(2000)
+    basic.pause(500)
 })
